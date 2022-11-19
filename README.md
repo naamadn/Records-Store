@@ -23,5 +23,9 @@ Redux\
 Material UI\
 TypeScript
 
+### Comments:
+1. The project is currently running under development environment only.
+2. Stripe account is requered to perform payments integration. 
+
 ### Credits:
 This repository based on the course "Learn to build an e-commerce store with .Net, React & Redux" by Neil Cummings.
