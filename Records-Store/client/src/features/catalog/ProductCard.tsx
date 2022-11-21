@@ -15,7 +15,7 @@ export default function ProductCard({ product }: Props) {
     const dispatch = useAppDispatch();
 
     return (
-        <Card>
+        <Card id="Card">
             <CardHeader
                 avatar={
                     <Avatar sx={{ bgcolor: 'secondary.main' }}>
