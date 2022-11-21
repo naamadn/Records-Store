@@ -79,7 +79,7 @@ export default function ProductDetails() {
                 </TableContainer>
                 <Grid container spacing={2}>
                     <Grid item xs={6}>
-                        <TextField 
+                        <TextField id="Quantity in Cart"
                             variant='outlined'
                             type='number'
                             label='Quantity in Cart'
@@ -89,7 +89,7 @@ export default function ProductDetails() {
                         />
                     </Grid>
                     <Grid item xs={6}>
-                        <LoadingButton
+                        <LoadingButton id="Cart Button"
                             disabled={item?.quantity === quantity}
                             loading={status.includes('pending')}
                             onClick={handleUpdateCart}
